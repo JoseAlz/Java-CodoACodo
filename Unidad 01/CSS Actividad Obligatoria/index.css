@@ -1,0 +1,33 @@
+#imageCodo {
+    width: 100px;
+}
+
+.footer {
+    background-color: #a9a9a9;
+    text-align: center;
+    font-size: 17px;
+}
+
+#imageHTML {
+    padding-left: 300px;
+    width: 75px;
+}
+
+.texto {
+    padding: 0px 200px 0px 200px;
+    font-size: 18px;
+}
+
+.nav {
+    background-color: #a9a9a9; 
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 17px;
+    padding: 5px;
+}
