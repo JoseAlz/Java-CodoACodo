@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 6</title>
+    <style>
+       body{
+            background-color:black;
+            color:gray;
+            font-size: 20px;
+        } 
+
+        input{
+            border-radius: 5px;
+        }
+
+        h1{
+            text-align: center;
+            color:white;
+        }
+
+        a{
+            color:rgb(8, 243, 67);
+            background-color:gray;
+            text-decoration: none;
+        }
+
+        header{
+            background-color: green;
+            font-size: 20px;
+        }
+
+
+        footer{
+            background-color: green;
+            text-align: center;
+            color: white;
+        }
+
+        .formulario{
+            
+            border-radius: 5px;
+            background-color: #5dd377;
+            padding: 25px;
+            margin: 10px 450px;
+          } 
+
+          nav{
+              text-align: right ;
+          }
+
+          input{
+            border-radius: 20px;
+        }
+
+      
+
+        
+    </style>
+</head>
+
+<body> 
+    <!--
+        1) poner los estilos en la etiqueta head, solo a fines del ejercicio 
+        2) Colocar las etiquetas semanticas
+
+        3) fondo color negro con letras grises de tamaño 10px
+        4) Centrar el titulo y  de color blanco
+        5) los enlaces de color verde fluo y
+         fondo gris, sin subrayar,
+          alineado a la derecha de la pantalla
+        
+        6) en el formulario Ocultar la direccion
+        7) ponerle  un orden de lectura de campos
+         de abajo para arriba ( de mail a nombre) 
+        8) el encabezado de color de fondo de verde y letra de tamaño 20px
+        9) los input con borde redondeados
+        10) pie de pagina verde con letras blancas y centrado
+        11) al formulario ponerle un fondo verde , con borde redondeado, 
+            con un margen a derecha y izq. de 450 px
+    -->
+       <header>
+       <h1>Clase 6</h1>
+
+       
+       <br>
+           
+            <a  href="#">Home</a>
+            <a  href="#">About</a>
+            <a  href="#">Register</a>
+        </header>
+       
+      
+        
+        <div class="formulario">
+            <form>       
+                <h2>Formulario</h2>
+                <label for="firstname">Nombre: </label>         <input tabindex="8" type="text"     name="firstname" id="firstname"  placeholder="Ingrese su nombre aqui..." required> 
+                <br><br>
+                <label  for="lastname">Apellido:</label>        <input tabindex="7" type="text"     name="lastname"  id="lastname"   placeholder="Ingrese su apellido aqui..." required> 
+                <br><br>
+                <div hidden >
+                    <p>Direccion:</p>
+                    <label for="street">Calle:</label>          <input tabindex="6" type="text"     name="street"    id="street"     placeholder="Ingrese su calle aqui...">
+                    <label for="number">Numero:</label>         <input tabindex="5" type="number"   name="number"    id="number"     placeholder="Ingrese el numero..">   
+                    <label for="city">Ciudad:</label>           <input tabindex="4" type="text"     name="city"      id="city"       value="C.A.B.A."> 
+                    <label for="zipcode">Código Postal:</label> <input tabindex="3" type="text"     name="zipcode"   id="zipcode"    placeholder="Ingrese su codigo postal aqui..."> <br><br>
+                </div>
+                <label for="telefono">Telefono:</label>         <input tabindex="2" type="tel"      name="telefono"  id="telefono"   placeholder="ingrese su telefono aqui ...."> 
+                <br><br>
+                <label for="mail">Mail: </label>                <input tabindex="1" type="email"    name="mail"      id="mail"       placeholder="ingrese su mail aqui ...." required>   
+                <br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <br>
+        <br>
+       
+
+     <footer>
+   
+        <br>
+        <p>Derechos reservados @2021 </p>
+        <br>
+    </footer>
+</body>
+
+
+</html>
