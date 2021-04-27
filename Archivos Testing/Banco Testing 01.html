@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Testing 01</title>
+</head>
+<body>
+    <div>
+        <h3>LISTAS</h3>
+        <p><b>Listas Desordenadas</b></p>
+        <ul type="sqaure">
+            <li>Elemento 1
+            <li>elemento 2
+            <li>elemento 3
+            <li type="circle">Elemento 4
+            
+        </ul>
+    </div>
+    <br>
+    <br>
+    <div>
+        <p><b>Listar Ordenadas</b></p>
+        <p>Reglas de convivencia</p>
+        <ol>
+            <li>No hacer ruidos molestos
+            <li>Ser amable con los vecinos
+        </ol>   
+        <br>
+        <br>
+        <p><b>Iniciar el contador desde otro numero</b></p>
+        <p>Reglas de convivencia</p>
+        <ol start="2" type="A">
+            <li>No hacer ruidos molestos
+            <li>Ser amable con los vecinos
+        </ol>
+        <br>
+        <br>
+        <p><b>Listas de definición</b></p>
+        <p>Alimentos Lácteos</p>
+        <dl>
+            <dt>Leche
+            <dd>descremada
+            <dd>entera
+            <dt>Queso
+            <dd>Fontina
+            <dd>Muzzarella
+        </dl>
+        <br>
+        <br>
+        <p><b>Anidando Listas</b></p>
+        <p>Ciudades del mundo</p>
+        <ul>
+            <li>Argentina
+            <ol>
+            <li>Buenos Aires
+            <li>Bariloche
+            </ol>
+            <li>Uruguay
+            <ol>
+            <li>Montevideo
+            <li>Punta del Este
+            </ol>
+        </ul>
+        <br>
+        <br>
+        <h3>TABLAS</h3>  
+        <br>
+        <br>  
+        <table>
+            <tr>
+              <td>Celda 1, linea 1</td>
+              <td> Celda 2, linea 1</td>
+            </tr>
+            <tr>
+              <td> Celda 1, linea 2</td>
+              <td> Celda 2, linea 2</td>
+            </tr>
+            </table>
+            <br>
+            <br>
+            <table>
+                <tr>
+                  <th>Celda 1, linea 1</th>
+                  <th> Celda 2, linea 1</th>
+                </tr>
+                <tr>
+                  <td> Celda 1, linea 2</td>
+                  <td> Celda 2, linea 2</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <h3>ETIQUETA IFRAME</h3>
+            <br>
+            <br>
+            <iframe name=miframeflotante src="colabora.htm" width=300 height=350 frameborder="0" scrolling=yes marginwidth=2 marginheight=4 align=left>Tu navegador no soporta frames!!</iframe>  
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            
+            <h3>FORMULARIOS</h3>
+            <br>
+            <br>
+            <input type="text" name="nombre">
+            <br>
+            <br>
+            <textarea name="comentario" rows="10" cols="40"></textarea>
+            <br>
+            <br>
+            <form>
+                <input type="text" name="nombre" value="Juan Perez">
+            </form>
+            <br>
+            <br>
+            <p><b>Listas de opciones</b></p>
+            <br>
+            <br>
+            <select name="estacion">
+                <option value="1">Primavera</option>
+                <option>Verano</option>
+                <option selected>Otoño</option>
+                <option>Invierno</option>
+            </select>
+            <br>
+            <br>
+            <p><b>Botones de Radio</b></p>
+            <br>
+            <br>
+            <input type="radio" name="estacion" value="1">Primavera
+            <br>
+            <input type="radio" name="estacion" value="2" checked>Verano
+            <br>
+            <input type="radio" name="estacion" value="3">Otoño
+            <br>
+            <input type="radio" name="estacion" value="4">Invierno
+            <br>
+            <br>
+            <p><b>Cajas de Validacion</b></p>
+            <br>
+            <br>
+            <input type="checkbox" name="jamon">Me gusta el jamón.
+            <input type="checkbox" name="jamon" checked>Me gusta el jamón.
+            <br>
+            <br>
+            <p><b>Envío, borrado y demás en formularios HTML</b></p>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <br>
+            <br>
+            <input type="reset" value="Borrar">
+            <br>
+            <br>
+            <input type=button value="Texto escrito en el botón">
+            <br>
+            <br>
+            <p><b>Ejemplo completo de formulario</b></p>
+            <br>
+            <br>
+            <form action="mailto:mlimideiro@gmail.com" method="post" enctype="text/plain">
+                Nombre <input type="text" name="nombre" size="30" maxlength="100">
+                <br>
+                Email <input type="text" name="email" size="25" maxlength="100" value="@">
+                <br>
+                Población <input type="text" name="poblacion" size="20" maxlength="60">
+                <br>
+                Sexo
+                <br>
+                <input type="radio" name="sexo" value="Varon" checked> Hombre
+                <br>
+                <input type="radio" name="sexo" value="Hembra"> Mujer
+                <br>
+                <br>
+                Frecuencia de los viajes
+                <br>
+                <select name="utilizacion">
+                <option value="1">Varias veces al dia
+                <option value="2">Una vez al dia
+                <option value="3">Varias veces a la semana
+                <option value="4">varias veces al mes
+                </select>
+                <br>
+                <br>
+                Comentarios sobre su satisfacción personal
+                <br>
+                <textarea cols="30" rows="7" name="comentarios"></textarea>
+                <br>
+                <br>
+                <input type="checkbox" name="recibir_info" checked> Deseo recibir notificación de las novedades en las líneas de autobuses.
+                <br>
+                <br>
+                <input type="submit" value="Enviar formulario">
+                <br>
+                <br>
+                <input type="Reset" value="Borrar todo">
+                </form>
+    </div>
+</body>
+</html>

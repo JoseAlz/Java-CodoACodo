@@ -1,0 +1,23 @@
+.cajaroja {
+    background-color: red;
+    width:300px;
+    height: 300px;
+    margin: 6px;
+    color: yellow;
+    font-size: 40px;
+    
+
+}
+.cajanegra {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 6px;
+    color: white;
+    font-size: 40px;
+    
+}
+
+body {
+    display: flex;
+}
