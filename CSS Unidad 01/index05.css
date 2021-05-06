@@ -1,0 +1,31 @@
+.output {
+
+    font: 1rem 'Fira Sans', sans-serif;
+    
+    }
+    
+     
+    
+    #resaltar {
+    
+    background: linear-gradient(to bottom, red, #f69d3c);
+    
+    border: 1px solid #696969;
+    
+    padding: 10px;
+    
+    border-radius: 10px;
+    
+    box-shadow: 2px 2px 1px greenyellow;
+    
+    }
+    
+     
+    
+    #resaltar:before {
+    
+    content: "ℹ️";
+    
+    margin-right: 5px;
+    
+    }

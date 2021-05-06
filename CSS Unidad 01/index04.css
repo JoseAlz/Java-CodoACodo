@@ -1,0 +1,60 @@
+.output {
+
+    font: 1rem 'Fira Sans', sans-serif;
+    
+    }
+        
+    h1 {
+    
+    margin: 0;
+    
+    }
+        
+    ul {
+    
+    margin: 10px 0 0;
+    
+    }
+    
+    li {
+    
+    position: relative;
+    
+    width: 200px;
+    
+    padding-bottom: 10px;
+    
+    }
+        
+    
+    li:after {
+    
+    content: 'N° Socio: ' attr(data-socio); /*attr LINKEA EL CSS CON EL ATRIBUTO data-socio Y TRAE EL NUMERO */
+    
+    position: absolute;
+    
+    top: -22px;
+    
+    left: 10px;
+    
+    background: red;
+    
+    color: white;
+    
+    padding: 2px;
+    
+    border: 1px solid #eee;
+    
+    opacity: 0;
+    
+    transition: 0.5s opacity;
+    
+    }
+    
+     
+    
+    li:hover:after {
+    
+    opacity: 0.80;
+    
+    }
