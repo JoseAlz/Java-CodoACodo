@@ -1,5 +1,4 @@
-Nombre de usuario de FTP: cursojavac2107@cursophp.foxit.com.ar
 Servidor FTP: ftp.foxit.com.ar
-Puerto FTPS explícito de FTP &:  21
-
+Nombre de usuario de FTP: cursojavac2107@cursophp.foxit.com.ar
 Password: 2R[XSl}ou3X?
+Puerto FTPS explícito de FTP &:  21
