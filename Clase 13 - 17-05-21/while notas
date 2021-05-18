@@ -1,0 +1,8 @@
+var nota=0;
+
+nota=Number(prompt("Ingrese una nota (para finalizar ingrese -1):"));
+
+while ( nota != -1){
+  nota=Number(prompt("Ingrese una nota (para finalizar ingrese -1):" ));
+}
+
