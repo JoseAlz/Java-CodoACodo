@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <br>
+    <br>
+    <h1 onclick="this.innerHTML = 'Ooops!'">Click on this text!</h1>
+    <br>
+    <h1 onclick="changeText(this)">Click on this text!</h1>
+    <script src="script.js"></script>
+    <br>
+    <br>
+    <p>Click the button to display the date.</p>
+    <button onclick="displayDate()">The time is?</button>
+    <p id="demo4"></p> 
+    <br>
+    <br>
+    <p id="demo5"></p>
+    <br>
+    <br>
+    Enter your name: <input type="text" id="fname" onchange="myFunction()">
+
+    <p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+    <br>
+    <br>
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+    style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+    Mouse Over Me</div>
+    <br>
+    <br>
+    <div onmousedown="mDown(this)" onmouseup="mUp(this)"
+style="background-color:#D94A38;width:90px;height:20px;padding:40px;">
+Click Me</div>
+
+<p>Click the button to loop through the properties of an object.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo6"></p>
+
+</body>
+</html>
